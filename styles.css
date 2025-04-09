@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to bottom,#1f312c,#150b0b );
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'times', fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  
+  .chat {
+    background: linear-gradient(to top, #647676, #1f312c);
+    border: 5px solid #030202;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px  rgba(197, 246, 101, 0.2);
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+    color: white;
+  }
+  
+  .chat-header {
+    padding: 20px;
+    background: linear-gradient(to top, #a994cb, #719d91);
+    color: #150b0b;
+    border: 1px solid #030202;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .chat-header h2 {
+    margin: 0;
+  }
+  
+  .chat-body {
+    flex: 1;
+    overflow-y: auto; 
+    padding: 10px;
+  }
+  
+  .chat-body .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f0f0f0;
+  }
+  
+  .chat-body .user-message {
+    background-color: #d3eaf5; 
+    text-align: right;        
+    color: white;            
+}
+
+  
+  .user-input {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-input input {
+    flex: 1;
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #070606;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .user-input button {
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    background-color: #3659e4;
+    color: #fff;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-input button:hover {
+    background-color: #67a2e1;
+  }
+  
+ 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

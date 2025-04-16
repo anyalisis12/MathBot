@@ -11,9 +11,10 @@ Built using HTML, CSS, and JavaScript, MathBot offers a user-friendly environmen
   * Interactive chatbot experience using JavaScript​
 
 ## Installation
-1. Clone the repository:
+   Clone the repository:
    ```bash
    git clone https://github.com/anyalisis12/MathBot.git
-2.Navigate to the project directory:
-   ```bash
    cd Mathbot
+
+
+
